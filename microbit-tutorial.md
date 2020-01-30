@@ -4,7 +4,7 @@
 
 ボタンを押したらLEDが光る簡単なプログラムを作ってみましょう！
 
-![](flash_heart.gif)
+![](flashing_heart.gif)
 
 ## Step 2 @fullscreen
 
