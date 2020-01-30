@@ -1,20 +1,25 @@
-# 最初の一歩
+# First One Step
 
+```ghost
+basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .`);
+```
 
 ## Introduction @unplugged
 
-```template
-//
-```
+
 
 ボタンを押したらLEDが光る簡単なプログラムを作ってみましょう！
 
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/flashing_heart.gif?raw=true)
+![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/flashing_heart.gif?raw=true)
 
 ## Step 1 
-### 最初のプログラム
 
-micro:bitではこの画面でプログラミングをしていきます。
+今からプログラムを作っていきます。micro:bitではこの画面でプログラミングします。
 
 
 ## Step 2 @fullscreen
@@ -25,15 +30,17 @@ micro:bitではこの画面でプログラミングをしていきます。
 input.onButtonPressed(Button.A, function () {
 })
 ```
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/onPushButtonA.gif?raw=true)
+![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/onPushButtonA.gif?raw=true)
 
 
 ## Step 2 @unplugged
 
+### アイコンを表示してみましょう
+
 左メニューから``||basic:アイコンを表示||``を選択し、配置しましょう。
 
 
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/showIcon.gif?raw=true)
+![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/showIcon.gif?raw=true)
 
 
 
@@ -51,34 +58,22 @@ input.onButtonPressed(Button.A, function () {
 
 
 
-```ghost
-basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .`);
-```
-
 ## Step 3 @unplugged
 
 ### 画面が消えるようにしましょう
 
-左メニューの``||basic:基本||``をクリックしたらその下の``||basic:・・・||``を押しましょう
+左メニューの``||basic:基本||``をクリックしたらその下の``||basic:・・・||``を押しましょう。
 
-メニューから``||basic:画面を消す||``を選択し、配置しましょう。
+その後、メニューから``||basic:画面を消す||``を選択し、配置しましょう。
 
 
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/clearScreen.gif?raw=true)
+![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/clearScreen.gif?raw=true)
 
 
 ## Step 3
 
-### 画面が消えるようにしましょう
-
-左メニューの``||basic:基本||``をクリックしたらその下の``||basic:・・・||``を押しましょう
-
-メニューから``||basic:画面を消す||``を選択し、配置しましょう。
+左メニューの``||basic:基本||``をクリックしたらその下の``||basic:その他||``を押しましょう。
+その後、メニューから``||basic:画面を消す||``を選択し、配置しましょう。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -96,7 +91,7 @@ input.onButtonPressed(Button.A, function () {
 
 うまく動きましたか？これでプログラムは完成です。
 
-次はプログラムをmicro:bitに転送について解説します。
+次はプログラムをmicro:bitに入れる方法を解説します。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
