@@ -15,9 +15,9 @@ basic.showLeds(`
 
 ボタンを押したらLEDが光る簡単なプログラムを作ってみましょう！
 
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/flashing_heart.gif?raw=true)
+![](https://aoirohn.github.io/microbit-tutorial/animation/flashing_heart.gif)
 
-## Step 1 
+## Step 1
 
 今からプログラムを作っていきます。micro:bitではこの画面でプログラミングします。
 
@@ -30,7 +30,7 @@ basic.showLeds(`
 input.onButtonPressed(Button.A, function () {
 })
 ```
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/onPushButtonA.gif?raw=true)
+![](https://aoirohn.github.io/microbit-tutorial/animation/onPushButtonA.gif)
 
 
 ## Step 2 @unplugged
@@ -40,7 +40,7 @@ input.onButtonPressed(Button.A, function () {
 左メニューから``||basic:アイコンを表示||``を選択し、配置しましょう。
 
 
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/showIcon.gif?raw=true)
+![](https://aoirohn.github.io/microbit-tutorial/animation/showIcon.gif)
 
 
 
@@ -67,7 +67,7 @@ input.onButtonPressed(Button.A, function () {
 その後、メニューから``||basic:画面を消す||``を選択し、配置しましょう。
 
 
-![](https://github.com/aoirohn/microbit-tutorial/blob/master/animation/clearScreen.gif?raw=true)
+![](https://aoirohn.github.io/microbit-tutorial/animation/clearScreen.gif)
 
 
 ## Step 3
